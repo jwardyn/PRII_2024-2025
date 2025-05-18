@@ -1,0 +1,91 @@
+git init
+
+git status
+
+git add <plik>
+git add -A
+
+
+git rm --cached <plik>
+
+git commit -m "tu wpisz komuinikat dla konkretnego commita"
+
+
+git config global user.name "<nazwa>"
+git config global user.email "<nazwa>"
+
+
+git log
+
+"modyfikujemy jeden plik"
+
+
+
+git commit -am
+
+flaga -a dodaje nam wszystkie pliki
+
+
+2.Branche:
+branch nazwany: main albo master- tam kod ma działać
+
+code review na innych branchach a potem merge/rebase do maina
+
+
+tworzenie branchu:
+
+git checkout -b"<nazwa>"
+
+git checkout master
+
+powraca do mastera
+
+git checkout -
+
+powraca do ostatniego
+
+git merge <nazwa brancha co łączymy>
+
+3.Github/Gitlab/Gitea
+
+dostęp do serwera:
+git remote add origin <>
+
+
+kiedy mamy już serwer:
+git push -u origin master
+
+W githubie: token dostępowy potrzebny:
+
+
+settings->developer settings->personal acess tokens
+
+wybieramy uprawnienia: repo
+
+i klikamy generate token TYLKO RAZ wyświetlany, można generować wiele razy
+
+
+4. Praca grupowa:
+
+
+dawanie zmiany do repozytorium zewnętrznego:
+
+git push
+
+pobieranie zmiany z zewnętrznego repozytorium do nas:
+
+git pull
+
+
+
+
+
+
+
+
+
+
+
+
+
+
